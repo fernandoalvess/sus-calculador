@@ -1,4 +1,5 @@
 ### **Instruções para Uso do Código SUS Score Calculator**
+  A System Usability Scale (SUS) é uma escala de usabilidade composta por 10 afirmações, cada uma avaliada em uma escala de 1 (discordo totalmente) a 5 (concordo totalmente). Aqui está um script em Python para calcular a pontuação SUS com base nas respostas de múltiplos participantes. O código recebe as respostas, ajusta os valores conforme a regra da SUS, calcula a pontuação individual e gera a média para todos os participantes.
 
 #### **Requisitos para Executar o Projeto**
 - Python **3.7+**  
