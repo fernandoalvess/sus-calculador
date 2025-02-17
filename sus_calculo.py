@@ -23,14 +23,14 @@ def calcular_sus(respostas):
     return pontuacoes, media_sus
 
 # Exemplo de respostas de participantes (substituir com dados reais)
-respostas_exemplo = [
+respostas_participantes = [
     [5, 1, 4, 2, 5, 1, 3, 2, 5, 3],  # Participante 1
     [3, 3, 4, 2, 3, 3, 4, 2, 3, 3],  # Participante 2
     # Adicione mais listas para os demais participantes
 ]
 
 # Cálculo da pontuação
-pontuacoes, media_sus = calcular_sus(respostas_exemplo)
+pontuacoes, media_sus = calcular_sus(respostas_participantes)
 
 # Exibir resultados
 print("Pontuações individuais SUS:", pontuacoes)
